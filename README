@@ -1,0 +1,69 @@
+\    /
+ \/\/yverkiss
+________________________________________________________________________
+
+This is an (unofficial) Wyverkiss repo based on the KISS repo for
+programming languages maintained by Daniel M. Matongo (@mmatongo on
+GitHub).
+
+
+What this repo is for
+________________________________________________________________________
+
+This repo is mainly for documentation on how to build programming
+languages packages in an LLVM-only environment, and eventually the
+modifications made here will be included in Wyvertux, as I have no
+roadmap for Wyvertux for the time being (I don't want it to sprawl
+everywhere without a clear roadmap). Also, any non-intrusive changes
+will be upstreamed (i.e. any changes that would build on Wyverkiss but
+would cause a regression in KISS won't be included).
+
+
+DISCLAIMER
+________________________________________________________________________
+
+Since the only test I'll do is to compile the compiler itself and try
+some basic things (hello world, basic arithmetics), I cannot say this is
+production-ready. As always, use at your own risk, and it is better to
+copy it to your personal packages and maintain it yourself rather than
+relying on this repo (if you're using Wyverkiss or kiss-llvm). KISS
+Linux users should not use this package, and are encouraged to use the
+upstream repo instead: https://github.com/mmatongo/kiss-lang.
+
+
+Language list
+________________________________________________________________________
+
+- [ ] Nim
+- [ ] Haskell
+- [ ] Go
+- [ ] Lua
+- [ ] Ocaml
+- [ ] R [r-lang]
+- [ ] Ruby
+- [ ] Vala
+- [ ] Racket (Minimal)
+- [ ] Crystal
+- [ ] Fortran (flang isn't usable yet unfortunately)
+- [ ] D [d-lang]
+- [ ] Janet
+- [ ] V [v-lang]
+- [ ] Chez Scheme
+- [ ] GForth
+- [ ] PForth
+- [ ] LuaJIT
+- [ ] Retro
+- [ ] C# (mono)
+- [ ] Java [non native]
+
+WIP LANGUAGES ---
+
+- [ ] Java-native [status: in progress]
+- [ ] Kotlin [status: in progress]
+- [ ] Scala [status: in progress]
+- [ ] Clojure [status: in progress]
+- [ ] Erlang [status: in progress]
+- [ ] Elixir
+- [ ] Julia [status: failing]
+- [ ] Zig [status: cannot build on musl (yet)]
+- [ ] F# (f-sharp)
