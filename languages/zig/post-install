@@ -10,5 +10,5 @@ If you rebuilt your LLVM, you need to rebuild Zig.
 To see the architectures that your Zig build supports, you can use this
 command:
 
-$ llvm-config --targets
+$ llvm-config --targets-built
 EOF
