@@ -1,11 +1,16 @@
 #!/bin/sh -e
 
+# Unfortunately we can't use cc.
+export CC="${CC:-clang}"
+
 (
     cd csources
 
     # Build nim source files
     ./build.sh
 )
+
+sed -i "/^cc \=/s/gcc/$CC/" config/nim.cfg
 
 # Build a release version of the "koch" maintenance program
 bin/nim compile -d:release koch
