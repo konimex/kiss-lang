@@ -1,0 +1,14 @@
+#!/bin/sh
+
+cat <<EOF
+If you're building with LLVM from kiss-llvm, you shouldn't have any
+problems using Zig to cross-compile. If you use Wyverkiss, you need to
+delete DLLVM_TARGETS_TO_BUILD in the main llvm package.
+
+If you rebuilt your LLVM, you need to rebuild Zig.
+
+To see the architectures that your Zig build supports, you can use this
+command:
+
+$ llvm-config --targets
+EOF
