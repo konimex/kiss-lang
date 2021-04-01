@@ -12,7 +12,7 @@ ________________________________________________________________________
 
 This repo is mainly for documentation on how to build programming
 languages packages in an LLVM-only environment, and eventually the
-modifications made here will be included in Wyvertux, as I have no
+modifications made here may be included in Wyvertux, as I have no
 roadmap for Wyvertux for the time being (I don't want it to sprawl
 everywhere without a clear roadmap). Also, any non-intrusive changes
 will be upstreamed (i.e. any changes that would build on Wyverkiss but
@@ -36,8 +36,8 @@ ________________________________________________________________________
 
 - [x] Nim
 - [ ] Haskell
-- [ ] Go
-- [ ] Lua
+- [x] Go
+- [x] Lua
 - [ ] Ocaml
 - [ ] R [r-lang]
 - [ ] Ruby
@@ -51,19 +51,17 @@ ________________________________________________________________________
 - [ ] Chez Scheme
 - [ ] GForth
 - [ ] PForth
-- [ ] LuaJIT
+- [x] LuaJIT
 - [ ] Retro
 - [ ] C# (mono)
 - [ ] Java [non native]
-
-WIP LANGUAGES ---
-
-- [ ] Java-native [status: in progress]
-- [ ] Kotlin [status: in progress]
-- [ ] Scala [status: in progress]
-- [ ] Clojure [status: in progress]
-- [ ] Erlang [status: in progress]
+- [x] Zig (Tentative - Cross-compiling support not yet tested as I have
+           to build LLVM with different config to leverage this feature)
+- [ ] Java-native
+- [ ] Kotlin
+- [ ] Scala
+- [ ] Clojure
+- [ ] Erlang
 - [ ] Elixir
-- [ ] Julia [status: failing]
-- [ ] Zig [status: cannot build on musl (yet)]
+- [ ] Julia
 - [ ] F# (f-sharp)
