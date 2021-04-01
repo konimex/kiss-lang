@@ -34,7 +34,7 @@ upstream repo instead: https://github.com/mmatongo/kiss-lang.
 Language list
 ________________________________________________________________________
 
-- [ ] Nim
+- [x] Nim
 - [ ] Haskell
 - [ ] Go
 - [ ] Lua
